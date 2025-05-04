@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # === НАСТРОЙКИ ===
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '7923422744:AAHDzG6SSQ4rXI0P-9rhTPOJB4sPoD8DKCc'
 SHEET_URL = 'https://docs.google.com/spreadsheets/d/1FWP1WCSzhTNPjgah7F4HEJyul_EDe0HC/export?format=csv'
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
