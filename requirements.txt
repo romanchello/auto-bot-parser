@@ -1,4 +1,5 @@
-pyTelegramBotAPI
+telebot
 requests
 beautifulsoup4
 pandas
+selenium
