@@ -67,8 +67,7 @@ def send_search_results(chat_id, query):
             car_price = price.get_text(strip=True)
             car_url = "https://suchen.mobile.de" + link["href"]
             image_url = image["src"] if image else None
-            caption = f"🚗 <b>{car_title}</b>"
-💶 <b>{car_price}</b>"
+            caption = f"\U0001F697 <b>{car_title}</b>\n\U0001F4B6 <b>{car_price}</b>"
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("Открыть объявление", url=car_url))
             bot.send_photo(chat_id, image_url, caption=caption, parse_mode='HTML', reply_markup=markup)
